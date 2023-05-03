@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120rem;
+  height: 6.25rem;
+}
+
+.bg-logo {
+  display: flex;
+  align-items: center;
+  background-color: #272727;
+  width: 2.5rem;
+  height: 2.5rem;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.bg-logo h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-transform: uppercase;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navbar_links li {
+  transition: all ease-in 0.2s;
+}
+
+.navbar_links li:hover {
+  color: #e0be36;
+}
+
+.icons_nav {
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+  cursor: pointer;
+}
+
+/* Resposividade */
+
+@media (max-width: 1230px) {
+  .navbar {
+    max-width:  65.875rem;
+    width: auto;
+  } 
+}
+
+@media (max-width: 1090px) {
+  .navbar {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  } 
+}
+
+@media (max-width: 800px) {
+  .navbar_links {
+   display: none;
+  }
+  .bg-logo h2 {
+    font-size: 1.25rem;
+  }
+}

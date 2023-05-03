@@ -1,0 +1,51 @@
+.content_budget {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content_budget h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  color: #272727;
+  padding-bottom: 1.0625rem;
+}
+
+.content_budget p {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+  color: #797979;
+  padding-bottom: 2.25rem;
+}
+
+.content_budget button {
+  background: #ffffff;
+  border: 0.0625rem solid #272727;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #272727;
+  margin-bottom: 4.875rem;
+  cursor: pointer;
+  transition: all ease-out 0.4s;
+}
+
+.content_budget button:hover {
+  color: #e0be36;
+}
+
+@media (max-width: 720px) {
+  .content_budget {
+    max-width: 37.5rem;
+    text-align: center;
+    margin: auto;
+  }
+  .content_budget button {
+    margin-bottom: 1.25rem;
+  }
+}
